@@ -1,0 +1,72 @@
+Menu As screen:
+    Fill: =RGBA(202, 202, 202, 1)
+
+    Rectangle9 As rectangle:
+        Fill: =RGBA(53, 61, 63, 1)
+        Height: =75
+        Width: =1366
+        ZIndex: =1
+
+    Avatar1 As Avatar:
+        DisplayMode: =DisplayMode.Edit
+        Height: =64
+        Image: =User().Image
+        Name: =User().FullName
+        Width: =64
+        X: =1277
+        Y: =11
+        ZIndex: =2
+
+    TextCanvas1 As Texto:
+        DisplayMode: =DisplayMode.Edit
+        FontColor: =RGBA(214, 221, 224, 1)
+        Height: =64
+        Size: =30
+        Text: ="Boas vindas!"
+        Weight: ='TextCanvas.Weight'.Bold
+        Width: =318
+        X: =10
+        Y: =11
+        ZIndex: =3
+
+    ButtonCanvas1 As Botão:
+        BasePaletteColor: =RGBA(18, 16, 16, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =40
+        OnSelect: =Navigate(Graficos)
+        Text: ="GRÁFICO"
+        Width: =170
+        X: =488
+        Y: =24
+        ZIndex: =4
+
+    ButtonCanvas2 As Botão:
+        BasePaletteColor: =RGBA(18, 16, 16, 1)
+        BorderThickness: =0
+        DisplayMode: =DisplayMode.Edit
+        Height: =40
+        IconStyle: ='ButtonCanvas.IconStyle'.Outline
+        Layout: ='ButtonCanvas.Layout'.IconBefore
+        OnSelect: =Navigate(Registro)
+        Text: ="REGISTRO"
+        Width: =170
+        X: =307
+        Y: =23
+        ZIndex: =5
+
+    Image1 As image:
+        Height: =626
+        Image: ='trabalhador-de-escritorio-furando-notas-na-placa-de-vidro_82574-8929'
+        Width: =626
+        X: =32
+        Y: =102
+        ZIndex: =6
+
+    Image2 As image:
+        Height: =541
+        Image: ='conceito-de-teletrabalho_23-2148517518'
+        Width: =538
+        X: =688
+        Y: =144
+        ZIndex: =7
+

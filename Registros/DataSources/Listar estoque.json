@@ -1,0 +1,102 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr9de_listarestoques",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr9de_listarestoque",
+    "MaxGetRowsCount": 500,
+    "Name": "Listar estoque",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "cr9de_datadechegada": "Data de Chegada",
+      "cr9de_fornecedor": "Fornecedor",
+      "cr9de_listarestoque_AsyncOperations": "Trabalhos do Sistema",
+      "cr9de_listarestoque_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "cr9de_listarestoque_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "cr9de_listarestoque_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "cr9de_listarestoque_ProcessSession": "Sessões de Processo",
+      "cr9de_listarestoque_SyncErrors": "Erros de Sincronização",
+      "cr9de_listarestoqueid": "Listar estoque",
+      "cr9de_preco": "Preço",
+      "cr9de_preco_base": "Preço (Base)",
+      "cr9de_produto": "Produto",
+      "cr9de_quantidade": "Quantidade",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "exchangerate": "Taxa de Câmbio",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "transactioncurrencyid": "Moeda",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Listar estoque",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Listar estoque (Modos de exibição)",
+    "Name": "_cr9de_listarestoque_views",
+    "RelatedEntityName": "Listar estoque",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0cd9a5ed-fecf-479d-9e51-b3ce2b0e63d6": "Listar estoque Ativos(as)",
+      "6eacc53b-7a27-4986-a3e4-70524d66eb5f": "Exibição Associada de Listar estoque",
+      "b1ea537b-9646-4fe3-9aa4-2981d2c87248": "Exibição de Consulta de Listar estoque",
+      "e29dd9f4-3807-49fc-9c20-7250acce69e6": "Exibição de Localização Avançada de Listar estoque",
+      "e43bf521-87cd-4a53-9b82-b112d4f9bbeb": "Listar estoque Inativos(as)"
+    }
+  },
+  {
+    "DisplayName": "Status (Listar estoque)",
+    "Name": "cr9de_listarestoque_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Listar estoque"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Listar estoque",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Listar estoque)",
+    "Name": "cr9de_listarestoque_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Listar estoque"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Listar estoque",
+    "Type": "OptionSetInfo"
+  }
+]
