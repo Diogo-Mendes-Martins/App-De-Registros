@@ -64,7 +64,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "09/30/2024 18:17:11",
+  "HeaderLastSavedDateTimeUTC": "10/03/2024 18:14:53",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -73,8 +73,8 @@
     "trabalhador-de-escritorio-furando-notas-na-placa-de-vidro_82574-8929": "7db501e0-c845-498a-acd5-2350dce577be.jpg"
   },
   "LocalResourceRootPaths": {
-    "conceito-de-teletrabalho_23-2148517518": "https://docserverpwaprodsbr.blob.core.windows.net/c5a077b7-e96e-49e3-91ea-b2446382d234-1/resource/Assets0Images067d912ba-dbd3-4478-a904-148a5000fd38.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-30T18%3A09%3A39Z&ske=2024-10-01T18%3A24%3A39Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-01T18%3A24%3A39Z&sr=b&sp=r&sig=AYPEshru0%2F%2FjBhCk%2FVS2FjTIe%2BxriuN2sU9JGHc5hzg%3D",
-    "trabalhador-de-escritorio-furando-notas-na-placa-de-vidro_82574-8929": "https://docserverpwaprodsbr.blob.core.windows.net/c5a077b7-e96e-49e3-91ea-b2446382d234-1/resource/Assets0Images07db501e0-c845-498a-acd5-2350dce577be.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-09-30T18%3A09%3A39Z&ske=2024-10-01T18%3A24%3A39Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-01T18%3A24%3A39Z&sr=b&sp=r&sig=5AotFmgUbF624dMm9XeFtgSwg71%2FYWzKau%2Fb2WOBVos%3D"
+    "conceito-de-teletrabalho_23-2148517518": "https://docserverpwaprodsbr.blob.core.windows.net/6fbaae7d-5e4c-4225-911b-5368d943c711-1/resource/Assets0Images067d912ba-dbd3-4478-a904-148a5000fd38.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-03T18%3A14%3A17Z&ske=2024-10-04T18%3A29%3A17Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-04T18%3A29%3A17Z&sr=b&sp=r&sig=ms3tW9tXtTGBfO%2FpSAczXw1hy2QDlMZGiXojYYQ5LII%3D",
+    "trabalhador-de-escritorio-furando-notas-na-placa-de-vidro_82574-8929": "https://docserverpwaprodsbr.blob.core.windows.net/6fbaae7d-5e4c-4225-911b-5368d943c711-1/resource/Assets0Images07db501e0-c845-498a-acd5-2350dce577be.jpg?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2024-10-03T18%3A14%3A17Z&ske=2024-10-04T18%3A29%3A17Z&sks=b&skv=2023-01-03&sv=2023-01-03&spr=https&se=2024-10-04T18%3A29%3A17Z&sr=b&sp=r&sig=fSnibN%2Fr2BFf1JP%2FWpSs5xJB11VtjoHCYWgU9J6nhTM%3D"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -306,7 +306,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.7649197,
+    "AnalysisLoadTime": 1.0029142,
     "ControlCount": {
       "button": 1,
       "datepicker": 1,
@@ -328,7 +328,7 @@
       "text": 5,
       "typedDataCard": 5
     },
-    "DeserializationLoadTime": 2.0864497
+    "DeserializationLoadTime": 3.9966334
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
